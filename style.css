@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Lobster+Two:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+
+img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index: -2;
+    border:8px  solid black;
+    
+}
+.info{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 20px;
+    color:#fff;
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h3{
+    font-family:Georgia;
+    color:rgb(236, 203, 152);
+    text-shadow: 7px 0 rgb(0, 0, 0) ;
+}
+.start{
+    font-size: 30px;
+    padding:3px 15px ;
+    cursor: pointer;
+    box-shadow: 6px 6px 7px #111;
+    border-radius: 10px;
+    background-color:wheat;
+}
+.start:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+.start:hover{
+    background-color:rgb(238, 137, 49);
+}
+.bot{
+    margin-top: -4px;
+}
+.container{
+    text-align: center;
+    margin-top: 10px;
+}
+.button{ 
+    position: relative;
+    width: 150px;
+    height:150px;
+    display: inline-block;
+    cursor: pointer;
+    border:3.5px solid black;
+    
+}
+
+
+.green{
+    background-color:rgb(33, 148, 33);
+    border-top-left-radius: 200px;
+    border-top: 5px solid rgb(245, 203, 203) ;
+    border-left: 5px solid rgb(245, 203, 203);
+}
+.green:active,
+.green.activated{
+    background-color: lightgreen;
+}
+.red{
+    background-color:rgb(179, 20, 20) ;
+    border-top-right-radius: 200px;
+    box-shadow: 10px 10px 7px 0px #111;
+    border-top: 5px solid rgb(245, 203, 203);
+    border-right: 5px solid rgb(245, 203, 203);
+}
+.red:active,
+.red.activated{
+    background-color: rgb(247, 176, 176);
+}
+.yellow{
+    background-color: rgb(218, 218, 5);
+    border-bottom-left-radius: 200px;
+    box-shadow: 3px 6px 8px 5px #111;
+    border-bottom: 5px solid rgb(245, 203, 203);
+    border-left: 5px solid rgb(245, 203, 203);
+}
+.yellow:active,
+.yellow.activated{
+    background-color: rgb(248, 248, 204);
+}
+.blue{
+    background-color: rgb(9, 138, 243);
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 10px 8px 3px #111;
+    border-bottom: 5px solid rgb(245, 203, 203);
+    border-right: 5px solid rgb(245, 203, 203);
+}
+.blue:active,
+.blue.activated{
+    background-color: lightskyblue;
+}
+@media(max-width:700px){
+    .button{ 
+        width: 100px;
+        height:100px;
+    }
+
+}
