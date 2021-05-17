@@ -7,17 +7,14 @@
     font-family: poppins;
     
 }
-
-img{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    z-index: -2;
-    border:8px  solid black;
-    
+body {
+	text-align: center;
+	background: url("back1.jpg") no-repeat center center fixed;
+	background-position: center;
+	object-fit: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 .info{
     font-size: 25px;
